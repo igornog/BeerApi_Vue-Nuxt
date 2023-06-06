@@ -20,8 +20,9 @@ Sort by ascending ABV
 Remove any with Centennial hops
 
 
-<img width="1405" alt="Captura de Tela 2023-06-06 às 13 12 49" src="https://github.com/igornog/beer-api-vue-nuxt/assets/29484089/c87272a4-3129-4f4c-8a76-8e708370b2d6">
+<img width="1436" alt="Captura de Tela 2023-06-06 às 13 34 13" src="https://github.com/igornog/beer-api-vue-nuxt/assets/29484089/16278870-79d7-443a-ae81-66628e19544a">
+
 
 # Warning and Highlighting
 
-<img width="1391" alt="Captura de Tela 2023-06-06 às 13 13 08" src="https://github.com/igornog/beer-api-vue-nuxt/assets/29484089/6c50c75b-eea0-4970-b72e-acbb1ed639ea">
+<img width="1416" alt="Captura de Tela 2023-06-06 às 13 34 29" src="https://github.com/igornog/beer-api-vue-nuxt/assets/29484089/394f3522-5451-4b88-b204-a1f08b7b90da">
