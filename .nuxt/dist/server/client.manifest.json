@@ -1,0 +1,15 @@
+{
+  "@vite/client": {
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "isEntry": true,
+    "file": "/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/nuxt/dist/app/entry.js"
+  }
+}
