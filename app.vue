@@ -46,7 +46,7 @@ filteredBeers.sort((a, b) => {
           <image class='min-w-[200px]'>
           <img :src="beer.image_url" class="w-auto max-h-[200px] mr-[50px]" />
         </image><div class='flex flex-col gap-[10px]'>
-            <h2 class='text-3xl'>{{ beer.name }}</h2>
+            <!-- <h2 class='text-3xl'>{{ beer.name }}</h2> -->
             <h3 class='text-2xl'>{{ beer.tagline }} {{ beer.hasDryHop && '(dry hop)' }}</h3>
             <p>{{ beer.description }}</p>
             <div class='text-[red]' v-if="beer.hasLactose">
