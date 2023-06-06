@@ -35,8 +35,6 @@ filteredBeers.sort((a, b) => {
   return 0;
 });
 
-
-console.log(filteredBeers)
 </script>
 
 <template>
