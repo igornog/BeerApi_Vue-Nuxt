@@ -9,7 +9,15 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend:
+    {
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
+      },
+      backgroundImage:{
+        'beerBkg': 'url(/assets/images/beer2-bkg.jpg)'
+      }
+    },
   },
   plugins: [],
 }

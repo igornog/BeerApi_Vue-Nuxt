@@ -1,5 +1,5 @@
 
-import { defuFn } from '/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

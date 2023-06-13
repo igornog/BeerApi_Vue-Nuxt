@@ -39,13 +39,14 @@ filteredBeers.sort((a, b) => {
 
 <template>
   <div>
-    <main class='flex flex-col m-16'>
-      <h1 class='text-4xl'>Beers</h1>
+    <main class='flex flex-col p-12'>
+      <h1 class='text-4xl text-center mb-8'>Beers <span class='text-xl'>(made with Vue & Nuxt)</span></h1>
       <div v-for="beer in filteredBeers " :key="beer.id" class='border mt-4 mb-4 p-8 flex flex-col'>
         <div class='flex'>
           <image class='min-w-[200px]'>
-          <img :src="beer.image_url" class="w-auto max-h-[200px] mr-[50px]" />
-        </image><div class='flex flex-col gap-[10px]'>
+            <img :src="beer.image_url" class="w-auto max-h-[200px] mr-[50px]" />
+          </image>
+          <div class='flex flex-col gap-[10px]'>
             <h2 class='text-3xl'>{{ beer.name }}</h2>
             <h3 class='text-2xl'>{{ beer.tagline }} {{ beer.hasDryHop ? '(dry hop)' : '' }}</h3>
             <p>{{ beer.description }}</p>

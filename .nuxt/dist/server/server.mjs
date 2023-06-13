@@ -1,1 +1,1 @@
-export { default } from "file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

@@ -1,26 +1,26 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { provider, isWindows } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/std-env/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/h3/dist/index.mjs';
-import { createRenderer } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/devalue/index.js';
-import { renderToString } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/vue/server-renderer/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/node_modules/radix3/dist/index.mjs';
+import { provider, isWindows } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/std-env/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/h3/dist/index.mjs';
+import { createRenderer } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/devalue/index.js';
+import { renderToString } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/vue/server-renderer/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/scule/dist/index.mjs';
+import { klona } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/igornogueira/GitHub/beer-api-vue-nuxt/node_modules/radix3/dist/index.mjs';
 
 const inlineAppConfig = {};
 
@@ -109,7 +109,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/igornogueira/GitHub/beer-api-vue-nuxt/server/assets"}];
 
 const assets = createStorage();
 
@@ -121,10 +121,10 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/igornogueira/GitHub/beer-api-vue-nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/igornogueira/GitHub/beer-api-vue-nuxt/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/igornogueira/GitHub/beer-api-vue-nuxt/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/igornogueira/GitHub/beer-api-vue-nuxt/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -531,11 +531,11 @@ const errorHandler = (async function errorhandler(error, event) {
   event.node.res.end(await res.text());
 });
 
-const _lazy_zm7UWl = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_WsSM72 = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_zm7UWl, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_zm7UWl, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_WsSM72, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_WsSM72, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -676,9 +676,9 @@ function publicAssetsURL(...path) {
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('/Users/igornogueira/GitHub/beer-api-vue-nuxt/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('/Users/igornogueira/Documents/GitHub/beer-api-vue-nuxt/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('/Users/igornogueira/GitHub/beer-api-vue-nuxt/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
