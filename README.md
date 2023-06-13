@@ -1,5 +1,8 @@
 # beer-api-vue-nuxt
 
+# See it live:
+https://beer-api-vue-nuxt.vercel.app/
+
 # Requirements
 
 Hit this brew dog api, display the results:
